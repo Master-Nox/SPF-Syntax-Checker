@@ -256,7 +256,7 @@ MAX_PTR = 10 #RFC 4408 Para 10.1/RFC 7208 4.6.4
 MAX_CNAME = 10 # analogous interpretation to MAX_PTR
 MAX_RECURSION = 20
 MAX_PER_LOOKUP_TIME = 20 # Per RFC 7208 4.6.4
-MAX_VOID_LOOKUPS = 2 # RFC 7208 4.6.4
+MAX_VOID_LOOKUPS = 99 # RFC 7208 4.6.4
 
 ALL_MECHANISMS = ('a', 'mx', 'ptr', 'exists', 'include', 'ip4', 'ip6', 'all')
 COMMON_MISTAKES = {
@@ -1214,7 +1214,7 @@ class query(object):
     # records - even when they are non-ascii.  So we return bytes.
     # The caller does the ascii check for SPF records and explanations.
     # 
-    def dns_txt(self, domainname, rr='TXT',ignore_void=False):
+    def dns_txt(self, domainname, rr='TXT',ignore_void=True):
         "Get a list of TXT records for a domain name."
         if domainname:
           try:
@@ -1317,7 +1317,7 @@ class query(object):
     #   in turn a list of strings (as bytes), as DNS supports long
     #   strings as shorter strings which must be concatenated.
     #
-    def dns(self, name, qtype, cnames=None, ignore_void=False):
+    def dns(self, name, qtype, cnames=None, ignore_void=True):
         """DNS query.
 
         If the result is in cache, return that.  Otherwise pull the
@@ -1993,20 +1993,27 @@ if __name__ == '__main__':
             q = query(i='127.0.0.1', s='localhost', h='unknown',
                 receiver=socket.gethostname())
             with open('temp.txt', 'w') as file:
-                file.write(q.dns_spf(argv[0]))
+                a = str(q.dns_spf(argv[0]))
+                #print(a)
+                if a == None or a == '':
+                    file.write("[Verified Missing.]")
+                elif a.startswith('v=spf1'):
+                    file.write(f"[Verified Correct: {q.dns_spf(argv[0])}]")
+                else:
+                    file.write(f"[Error.]")
             file.close
             #print(f"{q.dns_spf(argv[0])}")
         except TypeError:
             with open('temp.txt', 'w') as file:
-                file.write("Missing SPF.")
+                file.write("[Verified Missing.]")
                 file.close
         except TempError as x:
             with open('temp.txt', 'w') as file:
-                file.write(f"Error: {x}")
+                file.write(f"[Verified Incorrect [T]: {x}]")
                 file.close
         except PermError as x:
             with open('temp.txt', 'w') as file:
-                file.write(f"Error: {x}")
+                file.write(f"[Verified Incorrect [P]: {x}]")
                 file.close
     elif len(argv) == 3:
         i, s, h = argv

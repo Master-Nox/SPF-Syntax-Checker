@@ -1,21 +1,26 @@
 
 1801 E 6th
-1801east6th.com [v=spf1 +a +mx +ip4:50.87.253.170 +ip4:70.40.199.241 +ip4:69.89.31.187 +include:bluehost.com ~all]
+1801east6th.com
+[Verified Correct: v=spf1 +a +mx +ip4:50.87.253.170 +ip4:70.40.199.241 +ip4:69.89.31.187 +include:bluehost.com ~all]
 
 2 Dine 4
-2dine4.com [v=spf1 include:spf.protection.outlook.com include:mailgun.org ~all]
+2dine4.com
+[Verified Correct: v=spf1 include:spf.protection.outlook.com include:mailgun.org ~all]
 
 2Mark Media
 No Website Provided.
 
 3G Drywall
-3gdrywall.com [v=spf1 a:dispatch-us.ppe-hosted.com include:spf.protection.outlook.com -all]
+3gdrywall.com
+[Verified Correct: v=spf1 a:dispatch-us.ppe-hosted.com include:spf.protection.outlook.com -all]
 
 3rd and Shoal
-thirdandshoal.com [v=spf1 a mx include:websitewelcome.com ~all]
+thirdandshoal.com
+[Verified Correct: v=spf1 a mx include:websitewelcome.com ~all]
 
 5th and West Austin
-5thandwest.com [Missing SPF.]
+5thandwest.com
+[Error.]
 
 A2 Constructors
 No Website Provided.
@@ -24,91 +29,114 @@ Acessa Health
 No Website Provided.
 
 Acuitas Crede
-https://terrenpeizer.com/ [Missing SPF.]
+https://terrenpeizer.com/
+[Error.]
 
 Acuitasgh
-https://terrenpeizer.com/ [Missing SPF.]
+https://terrenpeizer.com/
+[Error.]
 
 Adelanto Healthcare Ventures
-ahcv.com [v=spf1 include:ahcv-com.spf.smtp25.com include:spf.serverdata.net include:servers.mcsv.net ~all], zafflaw.com [v=spf1 include:ahcv-com.spf.smtp25.com include:spf.serverdata.net include:servers.mcsv.net ~all]
+ahcv.com, zafflaw.com
+[Verified Correct: v=spf1 include:ahcv-com.spf.smtp25.com include:spf.serverdata.net include:servers.mcsv.net ~all]
 
 Admiral Permian Resources
-admiralpermian.com [v=spf1 include:spf.protection.outlook.com -all]
+admiralpermian.com
+[Verified Correct: v=spf1 include:spf.protection.outlook.com -all]
 
 AEXA Digital
 No Website Provided.
 
 AKA Builders
-akabuilders.com [v=spf1 include:spf.serverdata.net ~all]
+akabuilders.com
+[Verified Correct: v=spf1 include:spf.serverdata.net ~all]
 
 Al Koehler
 No Website Provided.
 
 Albanese Consulting Services
-albanesecs.com [Missing SPF.]
+albanesecs.com
+[Error.]
 
 Aleman
 No Website Provided.
 
 Alix Design Studio
-alixdesignstudio.com [Missing SPF.]
+alixdesignstudio.com
+[Error.]
 
 Alpine Resources
 No Website Provided.
 
 Altrua HealthShare
-altruaministries.org [v=spf1 include:spf.protection.outlook.com include:et._spf.pardot.com ~all], altruahealthshare.org [v=spf1 include:spf.protection.outlook.com include:et._spf.pardot.com ~all], crownadmin.com [v=spf1 include:spf.protection.outlook.com include:et._spf.pardot.com ~all]
+altruaministries.org, altruahealthshare.org, crownadmin.com
+[Verified Correct: v=spf1 include:spf.protection.outlook.com include:et._spf.pardot.com ~all]
 
 Ameredev
-ameredev.com [v=spf1 include:spf.protection.outlook.com include:spf.intermedia.net -all]
+ameredev.com
+[Verified Correct: v=spf1 include:spf.protection.outlook.com include:spf.intermedia.net -all]
 
 American Gateways
-agaustin.org [Missing SPF.], americangateways.org [Missing SPF.]
+agaustin.org, americangateways.org
+[Error.]
 
 AMP
-57 Domains [Missing SPF.]
+57 Domains
+[Error.]
 
 Andy Priest
 No Website Provided.
 
 Apollo Endosurgery
-apolloendo.com [v=spf1 ip4:170.146.0.0/16 ip4:199.193.204.0/24 ip4:199.193.205.0/24 ip4:199.193.207.0/24 ip4:64.78.26.0/24 ip4:208.185.229.0/24 ip4:208.185.235.0/24 ip4:148.59.108.0/23 ip4:148.59.106.0/23 ip4:204.239.0.0/24 ip4:198.207.147.0/24 ip4:216.230.14.0/24 ip4:54.240.46.194 ip4:54.240.46.195 ip4:204.2.135.87 ip4:204.2.135.89 ip4:204.2.135.88 ip4:204.141.99.89 ip4:204.141.99.88 ip4:204.141.99.87 ip4:52.204.73.104 ip4:34.227.231.161 include:spf.serverdata.net include:6012317.spf02.hubspotemail.net include:_spf.salesforce.com include:servers.mcsv.net include:bounce.smartsheet.com ~all], x-tack.com [v=spf1 ip4:170.146.0.0/16 ip4:199.193.204.0/24 ip4:199.193.205.0/24 ip4:199.193.207.0/24 ip4:64.78.26.0/24 ip4:208.185.229.0/24 ip4:208.185.235.0/24 ip4:148.59.108.0/23 ip4:148.59.106.0/23 ip4:204.239.0.0/24 ip4:198.207.147.0/24 ip4:216.230.14.0/24 ip4:54.240.46.194 ip4:54.240.46.195 ip4:204.2.135.87 ip4:204.2.135.89 ip4:204.2.135.88 ip4:204.141.99.89 ip4:204.141.99.88 ip4:204.141.99.87 ip4:52.204.73.104 ip4:34.227.231.161 include:spf.serverdata.net include:6012317.spf02.hubspotemail.net include:_spf.salesforce.com include:servers.mcsv.net include:bounce.smartsheet.com ~all], orbera.com [v=spf1 ip4:170.146.0.0/16 ip4:199.193.204.0/24 ip4:199.193.205.0/24 ip4:199.193.207.0/24 ip4:64.78.26.0/24 ip4:208.185.229.0/24 ip4:208.185.235.0/24 ip4:148.59.108.0/23 ip4:148.59.106.0/23 ip4:204.239.0.0/24 ip4:198.207.147.0/24 ip4:216.230.14.0/24 ip4:54.240.46.194 ip4:54.240.46.195 ip4:204.2.135.87 ip4:204.2.135.89 ip4:204.2.135.88 ip4:204.141.99.89 ip4:204.141.99.88 ip4:204.141.99.87 ip4:52.204.73.104 ip4:34.227.231.161 include:spf.serverdata.net include:6012317.spf02.hubspotemail.net include:_spf.salesforce.com include:servers.mcsv.net include:bounce.smartsheet.com ~all], overstitch.com [v=spf1 ip4:170.146.0.0/16 ip4:199.193.204.0/24 ip4:199.193.205.0/24 ip4:199.193.207.0/24 ip4:64.78.26.0/24 ip4:208.185.229.0/24 ip4:208.185.235.0/24 ip4:148.59.108.0/23 ip4:148.59.106.0/23 ip4:204.239.0.0/24 ip4:198.207.147.0/24 ip4:216.230.14.0/24 ip4:54.240.46.194 ip4:54.240.46.195 ip4:204.2.135.87 ip4:204.2.135.89 ip4:204.2.135.88 ip4:204.141.99.89 ip4:204.141.99.88 ip4:204.141.99.87 ip4:52.204.73.104 ip4:34.227.231.161 include:spf.serverdata.net include:6012317.spf02.hubspotemail.net include:_spf.salesforce.com include:servers.mcsv.net include:bounce.smartsheet.com ~all]
+apolloendo.com, x-tack.com, orbera.com, overstitch.com
+[Verified Correct: v=spf1 ip4:170.146.0.0/16 ip4:199.193.204.0/24 ip4:199.193.205.0/24 ip4:199.193.207.0/24 ip4:64.78.26.0/24 ip4:208.185.229.0/24 ip4:208.185.235.0/24 ip4:148.59.108.0/23 ip4:148.59.106.0/23 ip4:204.239.0.0/24 ip4:198.207.147.0/24 ip4:216.230.14.0/24 ip4:54.240.46.194 ip4:54.240.46.195 ip4:204.2.135.87 ip4:204.2.135.89 ip4:204.2.135.88 ip4:204.141.99.89 ip4:204.141.99.88 ip4:204.141.99.87 ip4:52.204.73.104 ip4:34.227.231.161 include:spf.serverdata.net include:6012317.spf02.hubspotemail.net include:_spf.salesforce.com include:servers.mcsv.net include:bounce.smartsheet.com ~all]
 
 Arcadia Management
-arcadiamgmt.com [v=spf1 include:asp-spf1.yardi.com include:asp-spf2.yardi.com include:spf.protection.outlook.com include:us._netblocks.mimecast.com -all]
+arcadiamgmt.com
+[Verified Correct: v=spf1 include:asp-spf1.yardi.com include:asp-spf2.yardi.com include:spf.protection.outlook.com include:us._netblocks.mimecast.com -all]
 
 Arch Fund LLC
-archfundllc.com [Missing SPF.]
+archfundllc.com
+[Error.]
 
 ARH Law of Texas
-https://www.alexhernandezlaw.com/ [Missing SPF.]
+https://www.alexhernandezlaw.com/
+[Error.]
 
 AssemblyGroup
-assemblygroup.com [v=spf1 include:spf.protection.outlook.com -all]
+assemblygroup.com
+[Verified Correct: v=spf1 include:spf.protection.outlook.com -all]
 
 ATXPetro
 No Website Provided.
 
 Austin Continuum
-austincontinuum.com [Missing SPF.]
+austincontinuum.com
+[Error.]
 
 Austin Habitat for Humanity
-ahfh.org [v=spf1 a mx ip4:50.87.216.65 ip4:67.222.42.159 ip4:66.219.51.64/26 ip4:67.78.116.1/25 include:salsalabs.org include:spf.serverdata.net include:_spf.mlsend.com include:spf.mandrillapp.com ~all], austinhabitat.org [v=spf1 a mx ip4:50.87.216.65 ip4:67.222.42.159 ip4:66.219.51.64/26 ip4:67.78.116.1/25 include:salsalabs.org include:spf.serverdata.net include:_spf.mlsend.com include:spf.mandrillapp.com ~all]
+ahfh.org, austinhabitat.org
+[Verified Correct: v=spf1 a mx ip4:50.87.216.65 ip4:67.222.42.159 ip4:66.219.51.64/26 ip4:67.78.116.1/25 include:salsalabs.org include:spf.serverdata.net include:_spf.mlsend.com include:spf.mandrillapp.com ~all]
 
 Austin Manual Therapy Associates
-austinmanualtherapy.com [v=spf1 +a +mx +ip4:209.126.25.56 include:spf.serverdata.net ~all]
+austinmanualtherapy.com
+[Verified Correct: v=spf1 +a +mx +ip4:209.126.25.56 include:spf.serverdata.net ~all]
 
 Austin Plastic Surgery Center
-austinplasticsurgerycenter.com [v=spf1 a mx ip4:170.249.202.74 ~all]
+austinplasticsurgerycenter.com
+[Verified Correct: v=spf1 a mx ip4:170.249.202.74 ~all]
 
 Austin Theatre Alliance
-austintheatre.org [v=spf1 ip4:52.124.61.0/24 ip4:216.146.33.0/24 include:spf.protection.outlook.com ~all]
+austintheatre.org
+[Verified Correct: v=spf1 ip4:52.124.61.0/24 ip4:216.146.33.0/24 include:spf.protection.outlook.com ~all]
 
 Austin Wholesale Decking Supply
-austinwholesaledecking.com [v=spf1 include:spf.protection.outlook.com -all]
+austinwholesaledecking.com
+[Verified Correct: v=spf1 include:spf.protection.outlook.com -all]
 
 Austonian
-theaustonian.com [v=spf1 include:spf.intermedia.net ~all]
+theaustonian.com
+[Verified Correct: v=spf1 include:spf.intermedia.net ~all]
 
 Avem LLC
 No Website Provided.
@@ -117,58 +145,73 @@ Bailey Dev Co
 No Website Provided.
 
 Ballet Austin
-balletaustin.org [v=spf1 mx include:_spf.adp.com include:ramp.tessituranetwork.com include:spf.protection.outlook.com include:wordfly.com include:e2ma.net include:servers.mcsv.net ip4:70.32.113.97 ip4:52.124.61.95 ~all], balletaustin.dance [v=spf1 mx include:_spf.adp.com include:ramp.tessituranetwork.com include:spf.protection.outlook.com include:wordfly.com include:e2ma.net include:servers.mcsv.net ip4:70.32.113.97 ip4:52.124.61.95 ~all], balletaustinguild.org [v=spf1 mx include:_spf.adp.com include:ramp.tessituranetwork.com include:spf.protection.outlook.com include:wordfly.com include:e2ma.net include:servers.mcsv.net ip4:70.32.113.97 ip4:52.124.61.95 ~all]
+balletaustin.org, balletaustin.dance, balletaustinguild.org
+[Verified Correct: v=spf1 mx include:_spf.adp.com include:ramp.tessituranetwork.com include:spf.protection.outlook.com include:wordfly.com include:e2ma.net include:servers.mcsv.net ip4:70.32.113.97 ip4:52.124.61.95 ~all]
 
 BamSmash
 No Website Provided.
 
 Barshop & Oles
-barshop-oles.com [v=spf1 ip4=71.78.75.91 include:spf.serverdata.net ~all]
+barshop-oles.com
+[Verified Correct: v=spf1 ip4=71.78.75.91 include:spf.serverdata.net ~all]
 
 Beardbrand
-beardbrand.com [v=spf1 include:_spf.google.com include:send.beardbrand.com include:mail.zendesk.com include:sendgrid.net ~all]
+beardbrand.com
+[Verified Correct: v=spf1 include:_spf.google.com include:send.beardbrand.com include:mail.zendesk.com include:sendgrid.net ~all]
 
 Benchmark Development
-https://www.benchmarkdevelopment.com/ [Missing SPF.]
+https://www.benchmarkdevelopment.com/
+[Error.]
 
 Betty Lash
-bettylash.com [Missing SPF.]
+bettylash.com
+[Error.]
 
 Beverly Cosmetic Surgery
 No Website Provided.
 
 Blueprint Global
-blueprint-global.com [v=spf1 include:spf.protection.outlook.com -all]
+blueprint-global.com
+[Verified Correct: v=spf1 include:spf.protection.outlook.com -all]
 
 Blush Marketing LLC
 No Website Provided.
 
 BMW Consult
-bmwconsult.com [v=spf1 include:spf.serverdata.net ~all]
+bmwconsult.com
+[Verified Correct: v=spf1 include:spf.serverdata.net ~all]
 
 Boomerangs Pies
-boomerangspies.com [v=spf1 include:spf.serverdata.net ~all]
+boomerangspies.com
+[Verified Correct: v=spf1 include:spf.serverdata.net ~all]
 
 Brazos Capital
-https://brazoscapitalgroup.com/ [Missing SPF.]
+https://brazoscapitalgroup.com/
+[Error.]
 
 Brian A Bailey Homes Inc
-http://www.baileybuiltcustomhomes.com/ [Missing SPF.]
+http://www.baileybuiltcustomhomes.com/
+[Error.]
 
 Bridge Leasing Group
-bridgeleasinggroup.com [v=spf1 include:spf.protection.outlook.com -all], bridgefinancegroup.com [v=spf1 include:spf.protection.outlook.com -all]
+bridgeleasinggroup.com, bridgefinancegroup.com
+[Verified Correct: v=spf1 include:spf.protection.outlook.com -all]
 
 Buck Shapiro
-https://shapirodunn.com/ [Missing SPF.]
+https://shapirodunn.com/
+[Error.]
 
 Building Image Group
-buildingimagegroup.com [v=spf1 include:spf.serverdata.net ~all]
+buildingimagegroup.com
+[Verified Correct: v=spf1 include:spf.serverdata.net ~all]
 
 Bullritos
-bullritos.com [v=spf1 include:spf.protection.outlook.com -all]
+bullritos.com
+[Verified Correct: v=spf1 include:spf.protection.outlook.com -all]
 
 Caffe Medici
-mediciroasting.com [v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all]
+mediciroasting.com
+[Verified Correct: v=spf1 mx include:netblocks.dreamhost.com include:relay.mailchannels.net -all]
 
 Canonical
 No Website Provided.
@@ -177,13 +220,15 @@ Carol Burdette
 No Website Provided.
 
 Catena Resources
-catenares.com [v=spf1 include:spf.protection.outlook.com -all]
+catenares.com
+[Verified Correct: v=spf1 include:spf.protection.outlook.com -all]
 
 CCI Brokers
 No Website Provided.
 
 Central Texas Refuse
-roundrockrefuse.net [v=spf1 include:spf.protection.outlook.com -all], wilcorecycling.com [v=spf1 include:spf.protection.outlook.com -all], centraltexasrefuse.com [v=spf1 include:spf.protection.outlook.com -all], iwsgusa.com [v=spf1 include:spf.protection.outlook.com -all]
+roundrockrefuse.net, wilcorecycling.com, centraltexasrefuse.com, iwsgusa.com
+[Verified Correct: v=spf1 include:spf.protection.outlook.com -all]
 
 Charlie Jones (BIG)
 No Website Provided.
@@ -195,13 +240,16 @@ Church Under The Bridge
 No Website Provided.
 
 Cielo Property Group
-http://cielopropertygroup.com/ [Missing SPF.]
+http://cielopropertygroup.com/
+[Error.]
 
 Classic Constructors
-http://classicconstructors.com/ [Missing SPF.]
+http://classicconstructors.com/
+[Error.]
 
 Clayton Christopher
-ccchristopher.com [v=spf1 include:spf.serverdata.net ~all]
+ccchristopher.com
+[Verified Correct: v=spf1 include:spf.serverdata.net ~all]
 
 Clint Small
 No Website Provided.
@@ -210,16 +258,20 @@ CMJ Business
 No Website Provided.
 
 Colgate Energy
-colgateenergy.com [v=spf1 include:spf.serverdata.net ~all]
+colgateenergy.com
+[Verified Correct: v=spf1 include:spf.serverdata.net ~all]
 
 Community Impact
-communityimpact.com [v=spf1 include:_spf.google.com include:servers.mcsv.net include:amazonses.com ~all], impactnews.com [v=spf1 include:_spf.google.com include:servers.mcsv.net include:amazonses.com ~all]
+communityimpact.com, impactnews.com
+[Verified Correct: v=spf1 include:_spf.google.com include:servers.mcsv.net include:amazonses.com ~all]
 
 Conquest Demo
-http://www.conquestdemo.com/ [Missing SPF.]
+http://www.conquestdemo.com/
+[Error.]
 
 Cordova Real Estate Ventures
-cordovarev.com [v=spf1 include:spf.serverdata.net include:aspmx.pardot.com ~all]
+cordovarev.com
+[Verified Correct: v=spf1 include:spf.serverdata.net include:aspmx.pardot.com ~all]
 
 Core Property Group
 No Website Provided.
@@ -228,73 +280,88 @@ Coyote Point Inc
 No Website Provided.
 
 CredeCG
-http://credecg.com/ [Missing SPF.]
+http://credecg.com/
+[Error.]
 
 Dakland Solutions
-daklandsolutions.com [v=spf1 include:secureserver.net -all]
+daklandsolutions.com
+[Verified Correct: v=spf1 include:secureserver.net -all]
 
 Dale Holder
 No Website Provided.
 
 Dalgleish Construction
-dalgleish.net [v=spf1 include:spf.serverdata.net ~all]
+dalgleish.net
+[Verified Correct: v=spf1 include:spf.serverdata.net ~all]
 
 David Palmer
 No Website Provided.
 
 Design & Assembly Concepts, Inc.
-dac-us.com [v=spf1 include:_spf.google.com ~all]
+dac-us.com
+[Verified Correct: v=spf1 include:_spf.google.com ~all]
 
 Development Capital Resources LP
-dcrlp.com [v=spf1 include:spf.serverdata.net ~all]
+dcrlp.com
+[Verified Correct: v=spf1 include:spf.serverdata.net ~all]
 
 Dick Beal
 No Website Provided.
 
 Discovery Resources
-https://www.discoveryresource.com/ [Missing SPF.]
+https://www.discoveryresource.com/
+[Error.]
 
 Dr Deb Dunn MD
 No Website Provided.
 
 Dripping Springs Vodka
-drippingspringsvodka.com [Missing SPF.]
+drippingspringsvodka.com
+[Error.]
 
 East Austin Hotel
-eastaustinhotel.com [Missing SPF.]
+eastaustinhotel.com
+[Error.]
 
 Emergent Acadamy
-https://www.emergentlearningacademy.com/ [Missing SPF.]
+https://www.emergentlearningacademy.com/
+[Error.]
 
 Eric Moreland
 No Website Provided.
 
 Fantasy Alarm & Wager Alarm
-??? [Missing SPF.]
+No Website Provided.
 
 Firmspace
-firmspace.com [v=spf1 include:spf.officernd.com include:servers.mcsv.net include:spf.protection.outlook.com include:_spf.google.com include:mail.zendesk.com include:spf.zoho.com include:transmail.net include:zcsend.net ~all]
+firmspace.com
+[Verified Correct: v=spf1 include:spf.officernd.com include:servers.mcsv.net include:spf.protection.outlook.com include:_spf.google.com include:mail.zendesk.com include:spf.zoho.com include:transmail.net include:zcsend.net ~all]
 
 Fogelman and Von Flatern
-https://www.fvflawfirm.com/ [Missing SPF.]
+https://www.fvflawfirm.com/
+[Error.]
 
 Forge Energy
-forgenergy.com [v=spf1 include:spf.serverdata.net ip4:12.34.238.130 ~all]
+forgenergy.com
+[Verified Correct: v=spf1 include:spf.serverdata.net ip4:12.34.238.130 ~all]
 
 Foundry
 No Website Provided.
 
 Fox Architecture
-fox-architecture.com [Missing SPF.], foxarchitecture.net [Missing SPF.]
+fox-architecture.com, foxarchitecture.net
+[Error.]
 
 Gabe Ellisor
 No Website Provided.
 
 Galvan Capital
-galvancap.com [v=spf1 include:spf.serverdata.net ~all]
+galvancap.com
+[Verified Correct: v=spf1 include:spf.serverdata.net ~all]
 
 Galveston Urban Ministries
-https://www.galvestonurbanministries.org/ [Missing SPF.]
+https://www.galvestonurbanministries.org/
+[Error.]
 
 GCH Builders
 No Website Provided.
@@ -303,34 +370,42 @@ Glenview
 No Website Provided.
 
 Godwin and Associates
-normcpa.com [v=spf1 include:spf.serverdata.net ~all]
+normcpa.com
+[Verified Correct: v=spf1 include:spf.serverdata.net ~all]
 
 Greelake Energy
-greenlakeenergy.com [v=spf1 include:spf.protection.outlook.com -all]
+greenlakeenergy.com
+[Verified Correct: v=spf1 include:spf.protection.outlook.com -all]
 
 Green Pastures
-mattiesaustin.com [v=spf1 a mx ptr include:com ?all]
+mattiesaustin.com
+[Verified Correct: v=spf1 a mx ptr include:com ?all]
 
 Greendot
 No Website Provided.
 
 Greenlake Energy Ventures
-https://www.greenlakeenergy.com/ [Missing SPF.]
+https://www.greenlakeenergy.com/
+[Error.]
 
 GWR
 No Website Provided.
 
 Hatch Resources
-hatchres.com [v=spf1 include:spf.serverdata.net ~all]
+hatchres.com
+[Verified Correct: v=spf1 include:spf.serverdata.net ~all]
 
 Homeward
-homeward.com [v=spf1 include:_spf.google.com include:_spf.salesforce.com include:a._spf.rr.com ~all], homewardtitle.com [v=spf1 include:_spf.google.com include:_spf.salesforce.com include:a._spf.rr.com ~all], homewardmortgage.com [v=spf1 include:_spf.google.com include:_spf.salesforce.com include:a._spf.rr.com ~all]
+homeward.com, homewardtitle.com, homewardmortgage.com
+[Verified Correct: v=spf1 include:_spf.google.com include:_spf.salesforce.com include:a._spf.rr.com ~all]
 
 Hosp Valet
-https://www.hospitalityparking.com/ [Missing SPF.]
+https://www.hospitalityparking.com/
+[Error.]
 
 Howler Brothers
-https://howlerbros.com/ [Missing SPF.]
+https://howlerbros.com/
+[Error.]
 
 Hyridge Energy
 No Website Provided.
@@ -339,16 +414,20 @@ Intrinisic Solutions
 No Website Provided.
 
 Investors Alliance
-investorsallianceinc.com [Missing SPF.]
+investorsallianceinc.com
+[Error.]
 
 Ironwood Midstream
-ironwoodmidstream.com [v=spf1 ip4:68.235.168.55 ip4:76.199.52.237 ip4:72.48.241.133 include:spf.protection.outlook.com -all]
+ironwoodmidstream.com
+[Verified Correct: v=spf1 ip4:68.235.168.55 ip4:76.199.52.237 ip4:72.48.241.133 include:spf.protection.outlook.com -all]
 
 Ivar's River Pub
-https://www.riverpubtx.com/ [Missing SPF.]
+https://www.riverpubtx.com/
+[Error.]
 
 J Pinnelli Company LLC
-http://www.pinnelli.com/ [Missing SPF.]
+http://www.pinnelli.com/
+[Error.]
 
 James Cashiola
 No Website Provided.
@@ -363,10 +442,12 @@ JDM Insure
 No Website Provided.
 
 Jet Rock Energy LLC
-https://jetrockllc.com/ [Missing SPF.]
+https://jetrockllc.com/
+[Error.]
 
 Jimmy Nassour Law
-defendtexans.com [Missing SPF.], jimmynassour.com [Missing SPF.]
+defendtexans.com, jimmynassour.com
+[Error.]
 
 John Little
 No Website Provided.
@@ -378,43 +459,54 @@ Kat Brooks
 No Website Provided.
 
 KDS Design
-kampfe.com [v=spf1 include:spf.intermedia.net ~all]
+kampfe.com
+[Verified Correct: v=spf1 include:spf.intermedia.net ~all]
 
 Keel&Nassour
-https://defendtexans.com/ [Missing SPF.]
+https://defendtexans.com/
+[Error.]
 
 Kelly RN
 No Website Provided.
 
 Kid Ventures Therapy Services
-kidventurestherapy.com [v=spf1 include:spf.protection.outlook.com -all]
+kidventurestherapy.com
+[Verified Correct: v=spf1 include:spf.protection.outlook.com -all]
 
 Kirby Walls Custom Builders
-https://kirbywalls.com/ [Missing SPF.]
+https://kirbywalls.com/
+[Error.]
 
 Knight Real Estate
-kreaustin.com [v=spf1 include:spf.serverdata.net ~all]
+kreaustin.com
+[Verified Correct: v=spf1 include:spf.serverdata.net ~all]
 
 Koch Construction
-kochbuild.com [v=spf1 include:spf.serverdata.net ~all]
+kochbuild.com
+[Verified Correct: v=spf1 include:spf.serverdata.net ~all]
 
 Kurt Simons Company
 No Website Provided.
 
 Kyle Bunting
-https://kylebunting.com/ [Missing SPF.]
+https://kylebunting.com/
+[Error.]
 
 La Corsha
-lacorsha.com [Missing SPF.]
+lacorsha.com
+[Error.]
 
 Lake Pointe Dental
-lakepointedental.com [v=spf1 +a +mx +ip4:50.87.253.197 +ip4:69.195.89.207 +include:bluehost.com ~all]
+lakepointedental.com
+[Verified Correct: v=spf1 +a +mx +ip4:50.87.253.197 +ip4:69.195.89.207 +include:bluehost.com ~all]
 
 Lampasas Abstract
-https://www.lampasasabstract.com/ [Missing SPF.]
+https://www.lampasasabstract.com/
+[Error.]
 
 Landwest Design Group
-landwest.com [v=spf1 include:spf.protection.outlook.com -all]
+landwest.com
+[Verified Correct: v=spf1 include:spf.protection.outlook.com -all]
 
 Laura Ortiz
 No Website Provided.
@@ -423,7 +515,8 @@ LogoPogo
 No Website Provided.
 
 Lone Star Podietry
-http://www.lonestarpodiatry.com/ [Missing SPF.]
+http://www.lonestarpodiatry.com/
+[Error.]
 
 Lori Elam
 No Website Provided.
@@ -435,19 +528,23 @@ Malcolm Dooley Construction
 No Website Provided.
 
 Med to Market
-medtomarket.com [v=spf1 include:_spf.google.com ~all]
+medtomarket.com
+[Verified Correct: v=spf1 include:_spf.google.com ~all]
 
 Mercury Permits
-https://mercurypermits.com/ [Missing SPF.]
+https://mercurypermits.com/
+[Error.]
 
 Mesquite Commercial
-mesquitecommercial.com [Missing SPF.]
+mesquitecommercial.com
+[Error.]
 
 Micaela Aleman, M.D
 No Website Provided.
 
 Michael Deane Homes Inc
-mdh.com [v=spf1 include:spf.serverdata.net ~all]
+mdh.com
+[Verified Correct: v=spf1 include:spf.serverdata.net ~all]
 
 Milo Burdette
 No Website Provided.
@@ -459,25 +556,31 @@ Mira Aviation
 No Website Provided.
 
 Mission Waco
-missionwaco.org [v=spf1 include:spf.serverdata.net ~all]
+missionwaco.org
+[Verified Correct: v=spf1 include:spf.serverdata.net ~all]
 
 Monte Goertz Construction
 No Website Provided.
 
 Moonshine Bar & Grill
-moonshinegrill.com [v=spf1 include:_spf.google.com ~all]
+moonshinegrill.com
+[Verified Correct: v=spf1 include:_spf.google.com ~all]
 
 Moontower Group
-https://www.moontower.com/ [Missing SPF.]
+https://www.moontower.com/
+[Error.]
 
 Moontower Resources
-moontowerres.com [v=spf1 include:spf.serverdata.net ~all]
+moontowerres.com
+[Verified Correct: v=spf1 include:spf.serverdata.net ~all]
 
 Moore and Associates
-https://www.mooreassociates.com/ [Missing SPF.]
+https://www.mooreassociates.com/
+[Error.]
 
 Moreland Properties
-moreland.com [v=spf1 include:spf.serverdata.net include:_spf.salesforce.com include:sendgrid.net include:activepipe.net ~all]
+moreland.com
+[Verified Correct: v=spf1 include:spf.serverdata.net include:_spf.salesforce.com include:sendgrid.net include:activepipe.net ~all]
 
 Mueller
 No Website Provided.
@@ -489,130 +592,166 @@ Myles Sherman
 No Website Provided.
 
 NDVH
-thehotline.org [v=spf1 ip4:66.90.249.103 ip4:97.105.166.194 ip4:207.238.86.104 ip4:207.238.86.105 ip4:207.238.86.106 include:spf.protection.outlook.com ~all +include:outboundmail.blackbaud.net ~all include:mail.zendesk.com ~all include:mx:caspiomail.com ~all include:_spf.caspiomail.com ~all]
+thehotline.org
+[Verified Correct: v=spf1 ip4:66.90.249.103 ip4:97.105.166.194 ip4:207.238.86.104 ip4:207.238.86.105 ip4:207.238.86.106 include:spf.protection.outlook.com ~all +include:outboundmail.blackbaud.net ~all include:mail.zendesk.com ~all include:mx:caspiomail.com ~all include:_spf.caspiomail.com ~all]
 
 Neal Dental Group
-nealdentalgroup.com [Missing SPF.]
+nealdentalgroup.com
+[Error.]
 
 New Standard Homes
 No Website Provided.
 
 Next Ventures
-nextventures.com [v=spf1 include:_spf.google.com ~all]
+nextventures.com
+[Verified Correct: v=spf1 include:_spf.google.com ~all]
 
 Nix Patterson
-nixlaw.com [v=spf1 include:spf.protection.outlook.com include:spf.serverdata.net include:_spf.salesforce.com ~all]
+nixlaw.com
+[Verified Correct: v=spf1 include:spf.protection.outlook.com include:spf.serverdata.net include:_spf.salesforce.com ~all]
 
 Ohayer
 No Website Provided.
 
 Oilfield Lodging
-oilfieldlodging.com [Error: Two or more type TXT spf records found.]
+oilfieldlodging.com
+[Verified Incorrect [P]: Two or more type TXT spf records found.]
 
 Patrick Mackie
 No Website Provided.
 
 Performance Wellness
-performwell.com [v=spf1 a include:_spf.hostedemail.com ~all]
+performwell.com
+[Verified Correct: v=spf1 a include:_spf.hostedemail.com ~all]
 
 PetRelocation
-petrelocation.com [v=spf1 include:spf.serverdata.net include:_netblocks.eloqua.com include:_spf.salesforce.com ~all]
+petrelocation.com
+[Verified Correct: v=spf1 include:spf.serverdata.net include:_netblocks.eloqua.com include:_spf.salesforce.com ~all]
 
 Petro-Hunt LLC
-https://www.petrohunt.com/ [Missing SPF.]
+https://www.petrohunt.com/
+[Error.]
 
 PetroLegacy Energy
-plellc.com [v=spf1 include:spf.serverdata.net include:u12008900.wl151.sendgrid.net ~all]
+plellc.com
+[Verified Correct: v=spf1 include:spf.serverdata.net include:u12008900.wl151.sendgrid.net ~all]
 
 Pin Point Strategies
-ppstrategies.net [v=spf1 include:spf.protection.outlook.com -all]
+ppstrategies.net
+[Verified Correct: v=spf1 include:spf.protection.outlook.com -all]
 
 Pi?on Resources
-pinonres.com [v=spf1 include:spf.protection.outlook.com -all], pinonresourcesllc.com [v=spf1 include:spf.protection.outlook.com -all]
+pinonres.com, pinonresourcesllc.com
+[Verified Correct: v=spf1 include:spf.protection.outlook.com -all]
 
 Radiant
 No Website Provided.
 
 Resource Production
-https://www.resourceproduction.com/about-us [Missing SPF.]
+https://www.resourceproduction.com/about-us
+[Error.]
 
 Retina Group of Texas, PLLC
-retinagroupoftexas.com [v=spf1 include:_spf.google.com ~all]
+retinagroupoftexas.com
+[Verified Correct: v=spf1 include:_spf.google.com ~all]
 
 Rise
-riseschoolaustin.org [v=spf1 include:spf.serverdata.net ~all]
+riseschoolaustin.org
+[Verified Correct: v=spf1 include:spf.serverdata.net ~all]
 
 River Rock Landscaping
-rrlltx.com [v=spf1 include:spf.intermedia.net ~all]
+rrlltx.com
+[Verified Correct: v=spf1 include:spf.intermedia.net ~all]
 
 Riverside Resources
-rivres.com [v=spf1 include:spf.protection.outlook.com -all]
+rivres.com
+[Verified Correct: v=spf1 include:spf.protection.outlook.com -all]
 
 RMD&Co
-https://rmdtx.com/ [Missing SPF.]
+https://rmdtx.com/
+[Error.]
 
 Robert Whitfield
-drrobertwhitfield.com [v=spf1 a:dispatch-us.ppe-hosted.com include:spf.protection.outlook.com a mx ptr include:secureserver.net ~all]
+drrobertwhitfield.com
+[Verified Correct: v=spf1 a:dispatch-us.ppe-hosted.com include:spf.protection.outlook.com a mx ptr include:secureserver.net ~all]
 
 ROBO
-robo.net [v=spf1 include:spf.serverdata.net include:amazonses.com include:serverpod.net include:relay.mailchannels.net include:mg-spf.greenhouse.io include:spf.mailjet.com ~all], robo6k.com [v=spf1 include:spf.serverdata.net include:amazonses.com include:serverpod.net include:relay.mailchannels.net include:mg-spf.greenhouse.io include:spf.mailjet.com ~all]
+robo.net, robo6k.com
+[Verified Correct: v=spf1 include:spf.serverdata.net include:amazonses.com include:serverpod.net include:relay.mailchannels.net include:mg-spf.greenhouse.io include:spf.mailjet.com ~all]
 
 Romance Writers of America
-rwa.org [v=spf1 include:spf.serverdata.net include:mailgun.org include:obmail.socious.net -all]
+rwa.org
+[Verified Correct: v=spf1 include:spf.serverdata.net include:mailgun.org include:obmail.socious.net -all]
 
 Ron Butterworth
 No Website Provided.
 
 Roots Integrative Veterinary Care
-roots.vet [v=spf1 include:_spf.google.com ~all]
+roots.vet
+[Verified Correct: v=spf1 include:_spf.google.com ~all]
 
 Round Rock Eye Consultants
-roundrockeye.com [v=spf1 include:spf.serverdata.net ~all]
+roundrockeye.com
+[Verified Correct: v=spf1 include:spf.serverdata.net ~all]
 
 Royalty Clearing House
-royaltyclearinghouse.online [Missing SPF.], rcptx.com [Missing SPF.], royaltyclearinghouse.com [Missing SPF.]
+royaltyclearinghouse.online, rcptx.com, royaltyclearinghouse.com
+[Error.]
 
 Ryan Street & Associates
-rsassoc.com [v=spf1 include:spf.serverdata.net ~all], ryanstreet.com [v=spf1 include:spf.serverdata.net ~all]
+rsassoc.com, ryanstreet.com
+[Verified Correct: v=spf1 include:spf.serverdata.net ~all]
 
 San Gabriel Apartments
 No Website Provided.
 
 SandPoint Resources, LLC
-sandpointresources.com [v=spf1 include:spf.serverdata.net ~all]
+sandpointresources.com
+[Verified Correct: v=spf1 include:spf.serverdata.net ~all]
 
 Seaholm Residences
-seaholmresidences.com [Error: Two or more type TXT spf records found.]
+seaholmresidences.com
+[Verified Incorrect [P]: Two or more type TXT spf records found.]
 
 Seco Ventures
-secoventures.com [v=spf1 include:spf.protection.outlook.com -all], riversideresources.com [v=spf1 include:spf.protection.outlook.com -all]
+secoventures.com, riversideresources.com
+[Verified Correct: v=spf1 include:spf.protection.outlook.com -all]
 
 Second Bar + Kitchen
-https://www.secondbarkitchen.com/ [Missing SPF.]
+https://www.secondbarkitchen.com/
+[Error.]
 
 Sereno Homes
-https://www.serenohomes.com/ [Missing SPF.]
+https://www.serenohomes.com/
+[Error.]
 
 Shoberg Homes
-shoberghomes.com [v=spf1 include:spf.serverdata.net ~all]
+shoberghomes.com
+[Verified Correct: v=spf1 include:spf.serverdata.net ~all]
 
 Silverado Oil & Gas
-sogllc.com [v=spf1 include:spf.serverdata.net ~all]
+sogllc.com
+[Verified Correct: v=spf1 include:spf.serverdata.net ~all]
 
 Spring HOA
-https://www.springaustin.com/ [Missing SPF.]
+https://www.springaustin.com/
+[Error.]
 
 Stouse Design
-stousedesign.com [Missing SPF.]
+stousedesign.com
+[Error.]
 
 Strub Residential
-strubresidential.com [v=spf1 ip4:168.245.17.56 include:spf.serverdata.net ~all]
+strubresidential.com
+[Verified Correct: v=spf1 ip4:168.245.17.56 include:spf.serverdata.net ~all]
 
 TCFV
-tcfv.org [v=spf1 ip4:50.28.92.184 ip4:67.225.229.47 ip4:69.39.77.0/24 ip4:69.39.79.0/24 ip4:98.129.102.152/30 ip4:159.135.226.58 ip4:205.139.105.21 ip4:216.234.106.37 include:spf.protection.outlook.com include:_spf.z2systems.com ~all]
+tcfv.org
+[Verified Correct: v=spf1 ip4:50.28.92.184 ip4:67.225.229.47 ip4:69.39.77.0/24 ip4:69.39.79.0/24 ip4:98.129.102.152/30 ip4:159.135.226.58 ip4:205.139.105.21 ip4:216.234.106.37 include:spf.protection.outlook.com include:_spf.z2systems.com ~all]
 
 TECH Fort Worth
-techfortworth.org [v=spf1 include:spf.protection.outlook.com -all]
+techfortworth.org
+[Verified Correct: v=spf1 include:spf.protection.outlook.com -all]
 
 Tenet Energy
 No Website Provided.
@@ -624,64 +763,80 @@ Terry Byford
 No Website Provided.
 
 Texas Advocacy Project
-texasadvocacyproject.org [v=spf1 include:spf.mandrillapp.com include:spf.skvare.com  include:spf.protection.outlook.com -all]
+texasadvocacyproject.org
+[Verified Correct: v=spf1 include:spf.mandrillapp.com include:spf.skvare.com  include:spf.protection.outlook.com -all]
 
 Texas Rural Water Association
-trwa.org [v=spf1 mx include:spf.ymem.net include:spf.protection.outlook.com -all]
+trwa.org
+[Verified Correct: v=spf1 mx include:spf.ymem.net include:spf.protection.outlook.com -all]
 
 The Auto Ad Agency
-https://theautoadagency.com/ [Missing SPF.]
+https://theautoadagency.com/
+[Error.]
 
 The USU
 No Website Provided.
 
 Three Rivers Operating Company
-3roc.com [Missing SPF.]
+3roc.com
+[Error.]
 
 TPI Air
-tpitexas.com [v=spf1 +a +mx +ip4:162.144.75.224 ?all]
+tpitexas.com
+[Verified Correct: v=spf1 +a +mx +ip4:162.144.75.224 ?all]
 
 TPI RallyApp
 No Website Provided.
 
 Travis Peak Resources
-travispkr.com [v=spf1 include:spf.protection.outlook.com -all]
+travispkr.com
+[Verified Correct: v=spf1 include:spf.protection.outlook.com -all]
 
 TRE Financial Services
 No Website Provided.
 
 TXCCDN
-https://txccdn.net/ [Missing SPF.]
+https://txccdn.net/
+[Error.]
 
 Tyndall Austin Sales Center
-tyndallaustin.com [v=spf1 include:spf.serverdata.net include:aspmx.pardot.com ~all]
+tyndallaustin.com
+[Verified Correct: v=spf1 include:spf.serverdata.net include:aspmx.pardot.com ~all]
 
 Venado Oil and Gas - Javelin
-vogllc.com [v=spf1 include:spf.protection.outlook.com include:spf.serverdata.net ~all]
+vogllc.com
+[Verified Correct: v=spf1 include:spf.protection.outlook.com include:spf.serverdata.net ~all]
 
 Victory Rocks
-https://victoryrockusa.com/ [Missing SPF.]
+https://victoryrockusa.com/
+[Error.]
 
 Vista Solutions Group
-vistasg.com [v=spf1 include:spf.protection.outlook.com include:mail.smtp2go.com -all]
+vistasg.com
+[Verified Correct: v=spf1 include:spf.protection.outlook.com include:mail.smtp2go.com -all]
 
 Vital Farms
-vitalfarms.com [v=spf1 include:_s00243946.autospf.email ~all]
+vitalfarms.com
+[Verified Correct: v=spf1 include:_s00243946.autospf.email ~all]
 
 VOXAV
-https://www.voxav.com/ [Missing SPF.]
+https://www.voxav.com/
+[Error.]
 
 Walker Elite
-walkerelite.com [v=spf1 a mx include:smtp.secureserver.net ip4:184.72.240.176 ~all]
+walkerelite.com
+[Verified Correct: v=spf1 a mx include:smtp.secureserver.net ip4:184.72.240.176 ~all]
 
 Wanderlust YOGA
-ytxaustin.com [v=spf1 include:dc-aa8e722993._spfm.ytxaustin.com ~all]
+ytxaustin.com
+[Verified Correct: v=spf1 include:dc-aa8e722993._spfm.ytxaustin.com ~all]
 
 WellRoute LLC
 No Website Provided.
 
 Wes Peoples Homes
-wespeopleshomes.com [v=spf1 include:_spf.google.com include:spf.protection.outlook.com ip4:204.75.13.0/24 ip4:207.200.34.228 -all]
+wespeopleshomes.com
+[Verified Correct: v=spf1 include:_spf.google.com include:spf.protection.outlook.com ip4:204.75.13.0/24 ip4:207.200.34.228 -all]
 
 Westlake Capital Group
 No Website Provided.
@@ -690,19 +845,24 @@ Westlake Marketing
 No Website Provided.
 
 Westlake Plastic Surgery
-westlakeplasticsurgery.com [Error: Two or more type TXT spf records found.]
+westlakeplasticsurgery.com
+[Verified Incorrect [P]: Two or more type TXT spf records found.]
 
 Westlake Psychology
-westlakepsych.com [Missing SPF.]
+westlakepsych.com
+[Error.]
 
 Wexum
-wexum.com [v=spf1 a mx ip4:104.198.0.44 ip4:69.64.144.0/20 ip4:98.124.192.0/18 ip4:207.238.43.0/24 ip4:207.8.85.0/24 include:relay.mailchannels.net include:spf.protection.outlook.com include:_spf.google.com include:servers.mcsv.net ~all]
+wexum.com
+[Verified Correct: v=spf1 a mx ip4:104.198.0.44 ip4:69.64.144.0/20 ip4:98.124.192.0/18 ip4:207.238.43.0/24 ip4:207.8.85.0/24 include:relay.mailchannels.net include:spf.protection.outlook.com include:_spf.google.com include:servers.mcsv.net ~all]
 
 WFSmithCo
-wfsmithcompany.com [v=spf1 a mx ptr include:bluehost.com ?all]
+wfsmithcompany.com
+[Verified Correct: v=spf1 a mx ptr include:bluehost.com ?all]
 
 White Water Midstream
-whitewatermidstream.com [v=spf1 include:spf.serverdata.net ~all], wwmgis.com [v=spf1 include:spf.serverdata.net ~all], wwm-llc.com [v=spf1 include:spf.serverdata.net ~all]
+whitewatermidstream.com, wwmgis.com, wwm-llc.com
+[Verified Correct: v=spf1 include:spf.serverdata.net ~all]
 
 Women Together
 No Website Provided.
@@ -711,5 +871,6 @@ WWBurke
 No Website Provided.
 
 Zach Theatre
-zachtheatre.org [v=spf1 a mx include:_spf.google.com include:wordfly.com ~all]
+zachtheatre.org
+[Verified Correct: v=spf1 a mx include:_spf.google.com include:wordfly.com ~all]
 
