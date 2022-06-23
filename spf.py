@@ -1,8 +1,3 @@
-#SPF Shit
-
-# https://dmarcian.com/spf-syntax-table/
-# "An SPF record is basically querying for DNS TXT records and parsing out any lines that start with v=spf1"
-
 #!/usr/bin/python
 from __future__ import print_function
 """SPF (Sender Policy Framework) implementation.
@@ -1997,11 +1992,22 @@ if __name__ == '__main__':
         try:
             q = query(i='127.0.0.1', s='localhost', h='unknown',
                 receiver=socket.gethostname())
-            print(q.dns_spf(argv[0]))
+            with open('temp.txt', 'w') as file:
+                file.write(q.dns_spf(argv[0]))
+            file.close
+            #print(f"{q.dns_spf(argv[0])}")
+        except TypeError:
+            with open('temp.txt', 'w') as file:
+                file.write("Missing SPF.")
+                file.close
         except TempError as x:
-            print("Temporary DNS error: ", x)
+            with open('temp.txt', 'w') as file:
+                file.write(f"Error: {x}")
+                file.close
         except PermError as x:
-            print("PermError: ", x)
+            with open('temp.txt', 'w') as file:
+                file.write(f"Error: {x}")
+                file.close
     elif len(argv) == 3:
         i, s, h = argv
         q = query(i=i, s=s, h=h,receiver=socket.gethostname(),verbose=verbose,
