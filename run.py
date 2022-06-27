@@ -15,12 +15,12 @@ import pandas as pd
 workbook = pd.read_excel('TEMP-ITG_AllOrganizations.xlsx', usecols = 'A:G')
 workbook.head()
 
-a = os.system(f"python spf.py dynamic-i.com")
+#a = os.system(f"python spf.py dynamic-i.com")
 
 index = 0
 number = 240
 
-TestArray = [['Name', 'Domains', 'SFP'], ['', '', '']]
+TestArray = [['Name', 'Domains', 'SPF'], ['', '', '']]
 
 
 with open("output.txt", 'w') as file:
@@ -29,9 +29,11 @@ with open("output.txt", 'w') as file:
             #print(index)
             file.write("\n")
             file.write(str(workbook['name'].iloc[index]))
+            print(str(workbook['name'].iloc[index]))
             file.write("\n")
             if str(workbook['Domain'].iloc[index]) == 'nan': #or str(workbook['Domain'].iloc[index]) == None or str(workbook['Domain'].iloc[index]) == '':
-                file.write("No Website Provided.")
+                file.write("[No Website Provided.]")
+                print("[No Website Provided]")
             else:
                 os.system(f"python spf.py {str(workbook['Domain'].iloc[index])}")
                 

@@ -1,1 +1,1 @@
-[Verified Correct: v=spf1 a mx include:_spf.google.com include:wordfly.com ~all]
+SPF Found: v=spf1 a mx include:_spf.google.com include:wordfly.com ~all

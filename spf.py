@@ -1994,27 +1994,25 @@ if __name__ == '__main__':
                 receiver=socket.gethostname())
             with open('temp.txt', 'w') as file:
                 a = str(q.dns_spf(argv[0]))
-                #print(a)
-                if a == None or a == '':
-                    file.write("[Verified Missing.]")
+                if a == None or a == 'None':
+                    file.write("[Verified Missing SPF.]")
                 elif a.startswith('v=spf1'):
-                    file.write(f"[Verified Correct: {q.dns_spf(argv[0])}]")
-                else:
-                    file.write(f"[Error.]")
+                    file.write(f"SPF Found: {q.dns_spf(argv[0])}")
             file.close
             #print(f"{q.dns_spf(argv[0])}")
         except TypeError:
             with open('temp.txt', 'w') as file:
-                file.write("[Verified Missing.]")
+                file.write("[Verified Missing SPF. (TypeError)]")
                 file.close
         except TempError as x:
             with open('temp.txt', 'w') as file:
-                file.write(f"[Verified Incorrect [T]: {x}]")
+                file.write(f"[Verified Incorrect (TempError)]: {x}]")
                 file.close
         except PermError as x:
             with open('temp.txt', 'w') as file:
-                file.write(f"[Verified Incorrect [P]: {x}]")
+                file.write(f"[Verified Incorrect (PermError)]: {x}]")
                 file.close
+        print(q.dns_spf(argv[0]))
     elif len(argv) == 3:
         i, s, h = argv
         q = query(i=i, s=s, h=h,receiver=socket.gethostname(),verbose=verbose,
